@@ -3,7 +3,7 @@
 
 ?>
 <!DOCTYPE html>
-<html long="en"
+<html long="en">
 <head>
     <title>GREEN BOOK SYSTEM</title>
     <meta charset="UTF-8">
@@ -47,9 +47,9 @@
         <a class="nav-link" href="contact.php">Contact Us<span class="sr-only">(current)</span></a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search here to BUY, RENT....." aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <form method="GET" action="searchbook.php" class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" name="search" placeholder="Search here to BUY, RENT....." aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" value="Search">Search</button>
       <<li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Login
